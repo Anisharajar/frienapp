@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row div col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div class="row g-3">
+             <table class="table">
+                    <thead class="table-success">
+                        
+                      <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">friendname</th>
+                        <th scope="col">friendnickname</th>
+                        <th scope="col">describeyourfriend</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor ="let i of data">
+                        <th scope="row">{{i.id}}</th>
+                        <td>{{i.friendname}}</td>
+                        <td>{{i.friendnickname}}</td>
+                        <td>{{i.describeyourfriend}}</td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
